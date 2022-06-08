@@ -1,0 +1,29 @@
+
+
+First time setup ***
+
+Terminal 
+
+
+cd ~/Desktop/excel_proj 
+
+
+python3 -m venv ./venv
+source venv/bin/activate
+pip install -r requirements.txt
+deactivate
+
+
+Usage **
+
+
+cd ~/Desktop/excel_proj 
+source venv/bin/activate
+python excel_proj.py Excel_Home_Task.xlsx ./
+deactivate
+
+
+
+
+
+
